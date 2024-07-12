@@ -368,7 +368,7 @@ while a_random!=0 and a1!=0:
     b1=b_random.copy()
     while b_random['name']!=a_random['name'] and statement==0:
         
-        print(a_random)
+        #print(a_random)
         print(f"Compare A: {a_random['name']} , a {a_random['description']} , from {a_random['country']}.")
         #print(a1)
 
@@ -376,7 +376,7 @@ while a_random!=0 and a1!=0:
         print(vs )
         higher=followers_comp()
         print(f"Against B: {b_random['name']} , a {b_random['description']} , from {b_random['country']}.")
-        print(b_random)
+        #print(b_random)
         #print(b1)
 
         ans=input("Who has more followers? Type 'A' or 'B':").lower()
