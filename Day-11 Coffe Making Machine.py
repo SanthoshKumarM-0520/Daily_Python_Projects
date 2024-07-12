@@ -1,3 +1,20 @@
+"""Description:
+This Python code simulates a coffee vending machine that processes customer orders for different types of coffee,
+checks the availability of ingredients, and handles payments and change.
+
+Key Functionality:
+Function: coffe_machine(customer_need)
+Checks if sufficient resources are available to make the selected coffee.
+Handles payment processing and change calculation.
+Provides the customer with the ordered coffee or an error message if resources are insufficient.
+How it Works:
+The user selects a coffee type (espresso, latte, cappuccino).
+The machine checks if there are enough resources (water, milk, coffee).
+The user inserts coins, and the machine calculates the total payment.
+If the payment is sufficient, the machine dispenses the coffee and gives change.
+The resources are updated accordingly, and the user's account balance is adjusted."""
+
+
 MENU = {
     "espresso": {
         "ingredients": {
