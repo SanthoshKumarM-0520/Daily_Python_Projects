@@ -37,7 +37,7 @@ def coffe_machine(customer_need):
     global resources
     global customer_pay
     global balance
-    #stack checking
+    
     xy="no"
     if resources['water']>=MENU[customer_need]["ingredients"]["water"]:
         if resources['milk']>=MENU[customer_need]["ingredients"]["milk"]:
