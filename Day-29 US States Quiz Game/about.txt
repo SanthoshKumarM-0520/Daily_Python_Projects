@@ -1,0 +1,32 @@
+This code implements a U.S. States Quiz game using the Python turtle module and pandas library.
+The code displays a map of the U.S. and prompts the user to guess the names of the states.
+When the user inputs a state name correctly, the state is labeled on the map at the appropriate coordinates.
+The game continues until all states are correctly guessed or the user types "exit".
+The list of missed states is saved in a CSV file if the user exits before completing the quiz.
+
+Key functions and features:
+
+turtle.shape() and screen.addshape() are used to set the map image as the background.
+pandas.read_csv() reads the state data and coordinates.
+turtle.Turtle().write() is used to display the state names on the map.
+
+
+To play the U.S. States Quiz game, follow these steps:
+
+Start the Game:
+
+Run the Python script. The game window will open with a map of the United States displayed.
+Guessing States:
+
+A dialog box will appear, prompting you to enter the name of a U.S. state. Type the state name and press Enter.
+If your guess is correct, the state name will appear on the map at the correct location, and your score will increase by one.
+Exiting the Game:
+
+You can exit the game at any time by typing "exit" in the input dialog. This will end the game and save a list of the states you missed in a CSV file named "missed_states.csv".
+Winning the Game:
+
+The game continues until you have correctly named all 50 states. If you succeed, a congratulatory message will appear on the screen.
+Additional Notes:
+The game is case-insensitive, so you can type the state names in any case (e.g., "texas" or "Texas").
+If you enter a state name that you've already guessed, it won't affect your score, and the game will continue.
+The game uses coordinates from the "50_states.csv" file to position the state names on the map.
