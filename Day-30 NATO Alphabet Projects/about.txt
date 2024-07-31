@@ -1,0 +1,15 @@
+Code Description:
+
+1. Purpose: This code converts a user-inputted word into its corresponding NATO phonetic alphabet code.
+2. Key Functions: The code uses `pandas.read_csv` to read a CSV file containing the NATO phonetic alphabet and
+constructs a dictionary using a dictionary comprehension. It then takes user input, converts it to uppercase,
+and maps each letter to its corresponding phonetic code.
+
+How the Code Works:
+
+1. Data Importation: The code reads a CSV file (`nato_phonetic_alphabet.csv`) containing letters and their corresponding phonetic codes using the `pandas.read_csv` function.
+2. Dictionary Creation: It creates a dictionary `word_code` where each letter is a key, and its corresponding phonetic code is the value.
+3. User Input and Conversion: The user inputs a word, which is converted to uppercase. The code then translates each letter of the word into its phonetic code using the dictionary `word_code`.
+4. Output: The phonetic codes are printed as a list.
+
+This code provides a convenient way for users to convert any word into the NATO phonetic alphabet, useful for clear communication in various fields, such as aviation and military contexts.
