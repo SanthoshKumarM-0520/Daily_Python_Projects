@@ -1,0 +1,14 @@
+This code creates a simple GUI application using the Tkinter library in Python. The application converts miles to kilometers.
+
+1. This code uses the Tkinter library to create a graphical user interface (GUI) that allows users to input a distance in miles and convert it to kilometers by clicking a button.
+2. It defines the main window, labels, an entry field, and a button, utilizing the `grid` layout manager and `config` method to organize and configure the elements.
+
+Here's a brief description of what each part of the code does:
+
+- `tkinter.Tk()`: Initializes the main window.
+- `window.title()`, `window.minsize()`, `window.config()`: Set the window's title, minimum size, and padding.
+- `tkinter.Label`: Creates and positions labels for welcome text, input prompt, and result display.
+- `tkinter.Entry`: Creates an entry field for user input.
+- `calculate()`: Defines a function to convert miles to kilometers and update the result label.
+- `tkinter.Button`: Creates a button that triggers the `calculate()` function when clicked.
+- `window.mainloop()`: Starts the Tkinter event loop to keep the window open.
