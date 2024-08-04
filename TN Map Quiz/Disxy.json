@@ -1,0 +1,154 @@
+{
+    "Ariyalur": {
+        "xaxis": 98.0,
+        "yaxis": 32.0
+    },
+    "Chengalpattu": {
+        "xaxis": 174.0,
+        "yaxis": 199.0
+    },
+    "Chennai": {
+        "xaxis": 199.0,
+        "yaxis": 238.0
+    },
+    "Coimbatore": {
+        "xaxis": -142.0,
+        "yaxis": 24.0
+    },
+    "Cuddalore": {
+        "xaxis": 123.0,
+        "yaxis": 78.0
+    },
+    "Dharmapuri": {
+        "xaxis": -30.0,
+        "yaxis": 142.0
+    },
+    "Dindigul": {
+        "xaxis": -57.0,
+        "yaxis": -45.0
+    },
+    "Erode": {
+        "xaxis": -95.0,
+        "yaxis": 82.0
+    },
+    "Kallakurichi": {
+        "xaxis": 81.0,
+        "yaxis": 111.0
+    },
+    "Kanchipuram": {
+        "xaxis": 150.0,
+        "yaxis": 217.0
+    },
+    "Kanyakumari": {
+        "xaxis": -108.0,
+        "yaxis": -260.0
+    },
+    "Karur": {
+        "xaxis": -25.0,
+        "yaxis": 15.0
+    },
+    "Krishnagiri": {
+        "xaxis": -37.0,
+        "yaxis": 199.0
+    },
+    "Madurai": {
+        "xaxis": -37.0,
+        "yaxis": -88.0
+    },
+    "Mayiladuthurai": {
+        "xaxis": 145.0,
+        "yaxis": 38.0
+    },
+    "Nagapattinam": {
+        "xaxis": 151.0,
+        "yaxis": -15.0
+    },
+    "Namakkal": {
+        "xaxis": -25.0,
+        "yaxis": 51.0
+    },
+    "Nilgiris": {
+        "xaxis": -171.0,
+        "yaxis": 77.0
+    },
+    "Perambalur": {
+        "xaxis": 64.0,
+        "yaxis": 47.0
+    },
+    "Pudukkottai": {
+        "xaxis": 52.0,
+        "yaxis": -41.0
+    },
+    "Ramanathapuram": {
+        "xaxis": 32.0,
+        "yaxis": -152.0
+    },
+    "Ranipet": {
+        "xaxis": 112.0,
+        "yaxis": 224.0
+    },
+    "Salem": {
+        "xaxis": -16.0,
+        "yaxis": 99.0
+    },
+    "Sivaganga": {
+        "xaxis": 26.0,
+        "yaxis": -90.0
+    },
+    "Tenkasi": {
+        "xaxis": -97.0,
+        "yaxis": -181.0
+    },
+    "Thanjavur": {
+        "xaxis": 75.0,
+        "yaxis": -1.0
+    },
+    "Theni": {
+        "xaxis": -93.0,
+        "yaxis": -91.0
+    },
+    "Thiruvallur": {
+        "xaxis": 179.0,
+        "yaxis": 253.0
+    },
+    "Thiruvarur": {
+        "xaxis": 125.0,
+        "yaxis": -2.0
+    },
+    "Thoothukudi": {
+        "xaxis": -32.0,
+        "yaxis": -194.0
+    },
+    "Tiruchirappalli": {
+        "xaxis": 26.0,
+        "yaxis": 22.0
+    },
+    "Tirunelveli": {
+        "xaxis": -83.0,
+        "yaxis": -230.0
+    },
+    "Tirupattur": {
+        "xaxis": 34.0,
+        "yaxis": 183.0
+    },
+    "Tiruppur": {
+        "xaxis": -98.0,
+        "yaxis": 11.0
+    },
+    "Tiruvannamalai": {
+        "xaxis": 74.0,
+        "yaxis": 167.0
+    },
+    "Vellore": {
+        "xaxis": 69.0,
+        "yaxis": 220.0
+    },
+    "Viluppuram": {
+        "xaxis": 122.0,
+        "yaxis": 140.0
+    },
+    "Virudhunagar": {
+        "xaxis": -44.0,
+        "yaxis": -139.0
+    }
+}

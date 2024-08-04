@@ -1,0 +1,35 @@
+Here is a summary highlighting the additional features and improvements you have incorporated into the Tamil Nadu map project compared to the US map project:
+
+US Map Code
+https://github.com/SanthoshKumarM-0520/Daily_Python_Projects/tree/main/Day-29%20US%20States%20Quiz%20Game
+
+CSV Data Handling: Reads data from a CSV file (50_states.csv).
+State Guessing Mechanism: User guesses states by typing in the names.
+Text Input: Utilizes screen.textinput for user input.
+Dynamic State Display: States guessed correctly are displayed on the map at corresponding coordinates.
+Score Tracking: Tracks the number of correctly guessed states.
+Exit Option: User can exit the game, which then saves missed states to a CSV file.
+Completion Message: Displays a congratulatory message when all states are guessed correctly.
+
+
+Tamil Nadu Map Code
+
+JSON Data Handling: Uses JSON files (Disxy.json, to_learn.json, score.txt) for storing coordinates, remaining districts, and scores.
+Interactive Coordinate Capture: (Commented Out) Function to capture coordinates by clicking on the map.
+Enhanced District Guessing Mechanism: User guesses districts by typing in names.
+Persistent State Tracking:
+Score Tracking: Reads and writes the score to a text file.
+Remaining Districts Tracking: Reads and updates the remaining districts in a JSON file.
+Text Input: Utilizes screen.textinput for user input with enhanced capitalization (title()).
+Dynamic District Display: Districts guessed correctly are displayed on the map at corresponding coordinates using data from JSON.
+Exit Option: Allows the user to exit the game and saves progress in JSON files.
+Completion Message: Displays a congratulatory message when all districts are guessed correctly.
+Error Handling: Implements try-except blocks for handling file read/write errors and non-existent files.
+Improvements and New Topics Practiced in Tamil Nadu Map Code
+JSON File Handling: Introduction of JSON for data persistence, allowing for more complex data structures and easier data manipulation.
+Interactive Coordinate Capture: (Although commented out) Shows an attempt to use mouse clicks to dynamically capture and store coordinates, demonstrating advanced interactivity.
+Persistent Storage: Implements a more robust system for storing and retrieving game progress across sessions (using to_learn.json and score.txt).
+Enhanced User Input Handling: Utilizes the title() method to standardize user input, improving user experience.
+Enhanced Error Handling: Comprehensive use of try-except blocks to handle potential errors gracefully, ensuring smoother execution and user experience.
+These enhancements demonstrate a deeper understanding of Python programming, especially in areas such as data persistence, error handling, and user interaction.
+This progression showcases your growing expertise and ability to handle more complex programming challenges.
