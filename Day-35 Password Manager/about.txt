@@ -1,0 +1,10 @@
+This code creates a password manager application using the Tkinter library for the graphical user interface.
+It includes features to generate random passwords, save login details to a JSON file, and search for saved details.
+
+- **Creating the main window and layout**: The code initializes a Tkinter window with a title and a grid layout, displaying labels, entry fields, and buttons.
+- **Saving and searching data**: Functions are defined to save login details to a JSON file, generate random passwords, and search for existing details, providing user interaction through message boxes.
+
+Functions used:
+- `tkinter.Tk()`: Creates the main application window.
+- `json.load()`, `json.dump()`: Handles reading and writing data to a JSON file.
+- `tkinter.messagebox.showinfo()`, `tkinter.messagebox.askokcancel()`: Display message boxes for user interaction.

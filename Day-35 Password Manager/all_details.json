@@ -1,0 +1,22 @@
+{
+    "amazon": {
+        "email": "siva@gmail.com",
+        "password": "!1s5$7%kh"
+    },
+    "flipkart": {
+        "email": "ram@gmail.com",
+        "password": "$21#o0`xv"
+    },
+    "ola": {
+        "email": "prem@gmail.com",
+        "password": "hc~7!9*9e"
+    },
+    "facebook": {
+        "email": "vani@gmail.com",
+        "password": "^`3v%8mc0"
+    },
+    "insta": {
+        "email": "hari@gmail.com",
+        "password": "%b*g@5f87"
+    }
+}
