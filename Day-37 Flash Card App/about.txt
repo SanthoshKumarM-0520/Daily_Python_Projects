@@ -1,0 +1,54 @@
+### Explanation of the Code:
+
+This Python script creates a flashcard application using the `tkinter` library for the graphical user interface (GUI) and `pandas` for handling data stored in CSV files. The flashcards help users learn French words by displaying a French word for a few seconds, then showing the English translation.
+
+#### Key Components and Functions:
+
+1. **Imports and Constants**:
+   - Import necessary libraries: `tkinter`, `pandas`, and `random`.
+   - Define constants for background color and text colors.
+
+2. **Global Variables**:
+   - `to_learn`: Stores the list of words to learn.
+   - `random_english`, `random_dic`, `timer`: Used within functions to manage the current word and timer.
+
+3. **Functions**:
+   - `next_card()`:
+     - Reads words from CSV files.
+     - Chooses a random French word from the list.
+     - Updates the canvas to show the French word.
+     - Sets a timer to call the `change()` function after 3 seconds.
+   - `change()`:
+     - Changes the card to display the English translation of the current French word.
+   - `is_know()`:
+     - Removes the current word from the list of words to learn if the user knows it.
+     - Saves the updated list back to the CSV file.
+     - Calls `next_card()` to display the next word.
+
+4. **Main Application Window**:
+   - Initializes the main application window with a title and background color.
+   - Sets a timer to call the `change()` function after 3 seconds.
+   - Creates a canvas to display the flashcards.
+   - Adds buttons for marking a word as known or unknown, linking them to the appropriate functions.
+
+5. **Canvas and Buttons**:
+   - The canvas is used to display the flashcards with the French word initially and the English translation upon change.
+   - Two buttons are created: one for indicating the word is known (`is_know()` function) and one for moving to the next word (`next_card()` function).
+
+6. **Start the Application**:
+   - Calls `next_card()` to display the first word.
+   - Starts the `tkinter` main loop to keep the application running.
+
+### How to Use This Application:
+
+1. **Setup**: Ensure you have `tkinter`, `pandas`, and CSV files (`french_words.csv` and optionally `word_to_learn.csv`) in the same directory as the script.
+2. **Run the Script**: Execute the script to open the flashcard application.
+3. **Learning Process**:
+   - A French word is displayed first.
+   - After 3 seconds, the card flips to show the English translation.
+   - Use the buttons to mark if you know the word (it will be removed from the list) or if you need to review it again.
+4. **CSV Files**:
+   - `french_words.csv`: Contains the initial list of French words and their English translations.
+   - `word_to_learn.csv`: Stores the list of words that need to be reviewed (updated dynamically based on user interaction).
+
+This application helps users learn French vocabulary through repeated exposure and active recall using flashcards.
